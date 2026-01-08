@@ -35,3 +35,4 @@ O formulário envia os dados diretamente para uma planilha do Google Sheets util
 ---
 
 ## 📁 Estrutura de Pastas
+Link: https://docs.google.com/spreadsheets/d/1aIqyoNzwyy_cO2vAlQEO1e-RCO88s38CILzzWkE2PXI/edit
