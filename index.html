@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Landing Page Arquitetura</title>
+
+  <!-- Fonte Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet"
+  />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- HERO -->
+  <header class="hero">
+    <div class="container">
+      <h1>Tradição em projetos de arquitetura</h1>
+      <p>Arquitetura residencial e comercial.</p>
+    </div>
+  </header>
+
+  <!-- MÉTRICAS -->
+  <section class="stats">
+    <div class="container stats-grid">
+      <div class="stat">
+        <strong>850</strong>
+        <span>empreendimentos construídos</span>
+      </div>
+
+      <div class="stat">
+        <strong>40</strong>
+        <span>anos de mercado e experiência</span>
+      </div>
+
+      <div class="stat">
+        <strong>2.000.000</strong>
+        <span>m² em projetos construídos</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- SOBRE -->
+  <section class="about">
+    <div class="container about-grid">
+      <div class="about-text">
+        <h2>Arquitetos com História e Experiência.</h2>
+        <p>
+          Nós realizamos desde 2002 projetos e gerenciamento de obras.
+          Com mais de 800 projetos e 2.000.000 de m² construídos, tendo como
+          principal proposta transformar em realidade os sonhos de seus clientes,
+          criando projetos personalizados, unindo a tradição e a modernidade em
+          nossos projetos.
+        </p>
+      </div>
+
+      <div class="about-image">
+        <img src="assets/ambiente.jpg" alt="Ambiente interno moderno" />
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTATO -->
+  <section class="contact">
+    <div class="container contact-content">
+      <h3>Conheça mais sobre nossos serviços:</h3>
+
+      <!-- FORMULÁRIO INTEGRADO AO SHEETMONKEY -->
+      <form 
+        class="form"
+        action="https://share.sheetmonkey.io/f/4h7oEscxUsqcs17FazXmpV"
+        method="POST"
+      >
+        <input 
+          type="text" 
+          name="Nome" 
+          placeholder="Nome" 
+          required 
+        />
+
+        <input 
+          type="email" 
+          name="Email" 
+          placeholder="Email" 
+          required 
+        />
+
+        <!-- opcional: página de agradecimento -->
+        <input 
+          type="hidden" 
+          name="RedirectTo" 
+          value="https://google.com"
+        />
+
+        <button type="submit">Fale Conosco</button>
+      </form>
+    </div>
+  </section>
+
+</body>
+</html>
+
+
