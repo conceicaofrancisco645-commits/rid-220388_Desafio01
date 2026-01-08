@@ -23,8 +23,8 @@ Criar uma landing page funcional para um escritório de arquitetura, permitindo 
 - HTML5
 - CSS3
 - Google Fonts (Inter)
-- Sheet Monkey
-- Google Sheets
+- SheetMonkey
+- GoogleSheets
 - GitHub
 
 ---
